@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build Step
-        run: echo "{{ vars.MENLAH }}"
+        run: echo "Hello, ${{ vars.MENLAH }}"
  
         
   
